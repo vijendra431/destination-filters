@@ -1,0 +1,27 @@
+
+
+.images {
+  height: 35vh;
+  width: 80vw;
+}
+
+.para {
+  color: #252627;
+  font-weight: 900;
+  font-family: Bree Serif;
+}
+
+.list-container {
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .images {
+    width: 50vw;
+    height: 40vh;
+  }
+
+  .list-container {
+    margin: 20px;
+  }
+}
